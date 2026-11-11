@@ -1,0 +1,25 @@
+{
+  "provenance": "2026 portfolio reconstruction; NOT reported thesis experiment",
+  "input_sha256": "e8f6eb8806dbec50ae3f53dd1b1b94b3acf4b2f203b329b1b8a63468c62b3cfd",
+  "label_sha256": "0769e9ca139a3d414a9e7ea08da350fe1519a8a9a8e602f73cdde37750871653",
+  "event_count": 423,
+  "window_count": 48,
+  "injected_anomaly_windows": 5,
+  "window_duration_minutes": 30,
+  "model": "sklearn.ensemble.IsolationForest",
+  "features": [
+    "success_login_count",
+    "failed_login_count",
+    "unique_ip_count",
+    "event_type_count",
+    "event_frequency",
+    "off_hours"
+  ],
+  "n_estimators": 200,
+  "contamination": 0.125,
+  "random_state": 42,
+  "evaluation": "same data used for unsupervised fitting and scoring; no hold-out",
+  "scikit_learn_version": "1.8.0",
+  "numpy_version": "2.3.5",
+  "pandas_version": "2.2.3"
+}

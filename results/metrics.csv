@@ -1,0 +1,4 @@
+method,tp,fp,fn,tn,precision,recall,f1
+rule_based_anomaly,5,0,0,43,1.00000000,1.00000000,1.00000000
+isolation_forest_anomaly,5,1,0,42,0.83333333,1.00000000,0.90909091
+hybrid_anomaly,5,1,0,42,0.83333333,1.00000000,0.90909091

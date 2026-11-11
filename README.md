@@ -94,7 +94,7 @@ This is useful as evidence of **Python coding, testable interfaces, input valida
 python -m pytest -v
 ```
 
-GitHub Actions configuration is included in `.github/workflows/ci.yml` (it will run after uploading to GitHub; **CI has not yet been observed on GitHub**).
+GitHub Actions (`.github/workflows/ci.yml`) successfully ran the test and artifact-rebuild workflow on **Python 3.10 and 3.12** on **11 November 2026** (initial published commit `dde9c83`). See the [Actions page](https://github.com/niko-naseri/log-based-anomaly-detection-python/actions) for the latest run.
 
 ## Repository contents
 
@@ -109,7 +109,7 @@ results/              run CSV files and metadata recorded with file hashes
 figures/              three measured-output charts plus one schematic architecture diagram
 tests/                automated verification tests
  docs/                 methods, data handling, reproducibility, provenance, job relevance
-.github/workflows/    proposed automated checks (not yet run in GitHub)
+.github/workflows/    automated tests and artifact rebuilds, verified in GitHub Actions
 ```
 
 ## Data and publication safeguards
